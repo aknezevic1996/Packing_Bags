@@ -1,6 +1,5 @@
 package org.powerreviews;
 
-import lombok.extern.slf4j.Slf4j;
 import org.powerreviews.dto.Item;
 import org.powerreviews.dto.ItemCount;
 import org.powerreviews.util.PackUtils;
@@ -8,7 +7,6 @@ import org.powerreviews.util.PackUtils;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-@Slf4j
 public class Main {
     public static void main(String[] args) {
         List<Item> items = PackUtils.createAvailableItems();
